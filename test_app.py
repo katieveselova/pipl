@@ -6,3 +6,6 @@ def test_add():
 
 def test_divide():
     assert divide(6, 2) == 3.0
+
+def test_zero():
+    assert divide(5,0) == 9
